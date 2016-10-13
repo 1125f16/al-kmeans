@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<script src="03_getClusters.js"></script>
+<style>*{font-family: arial; font-size: 1.2em}</style>
+<script>
+
+// the assignCentroids function generates the cluster data
+// getClusters simply creates a new array that is easier to graph
+function getClusters(k){
+
+	// -------------------------
+	//		YOUR CODE
+	// -------------------------
+
+	/*
+	// return format:	
+	[
+	    [
+	        {x:150, y:100, centroid:0},
+	        {x:135, y:65,  centroid:0},
+	        ...
+	    ],
+	    [
+	        {x:250, y:350, centroid:1},
+	        {x:228, y:297, centroid:1},
+	        ...
+	    ],
+	    [
+	        {x:600, y:350, centroid:2},
+	        {x:571, y:279, centroid:2},
+	        ...
+	    ]        
+	]
+
+	*/
+}
+
+
+</script>
+
+<!-- User Interface Elements -->
+<input 	id="k" 
+		value="Centroid Assignments Preloaded" 
+		size="40" readonly>
+</input>
+<button onclick="run()">Get Clusters</button>
+<canvas id="canvas" width="640" height="480" 
+        style="border:1px solid black;"></canvas>
+<div id="clusters"></div>
+<script src="graph.js"></script>
+
+</html>
+
+
+
+
+
+
+
