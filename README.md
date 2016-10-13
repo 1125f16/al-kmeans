@@ -1,0 +1,2 @@
+# al-kmeans
+kmeans exercise
